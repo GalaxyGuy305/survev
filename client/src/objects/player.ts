@@ -7,6 +7,8 @@ import type { RoleDef } from "../../../shared/defs/gameObjects/roleDefs";
 import type { ThrowableDef } from "../../../shared/defs/gameObjects/throwableDefs";
 import { MapObjectDefs } from "../../../shared/defs/mapObjectDefs";
 import type { ObstacleDef } from "../../../shared/defs/mapObjectsTyping";
+import { GameMod } from "../gameMod";
+const gameMod = new GameMod();
 import {
     Action,
     Anim,
